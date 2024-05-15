@@ -1,0 +1,102 @@
+1- SCM: Gestion del codigo fuente, abarca herramientas y practicas para maejar cambios en el codigo.
+   VCS: Sistema de control de versiones, se centra en el seguimineto y control de las versiones del codigo.
+   Git puede ser considerado tonto un SCM como un VCS debido a sus amplias capacidades de gestion y control de versiones del codigo fuente. Otros ejemplos de sistemas de control de versiones incluyen Subversion, Mercurial, Perforce y Bazaar.
+
+2- Modificado, significa que ha cambiado el archivo pero aun no lo ha enviado a su base de datos.
+   Preparado, significa que ha marcado un archivo modificado en su version actual para pasar a su proxima instantanea de confirmacion.
+   Confirmado, significa que los datos se almacenan de forma segura en su base de datos local.
+
+3- Archivo config en el directorio de Git (es decir, .git/config) del repositorio que estes utilizando actualmente.
+
+   $ git config
+
+4- $git help (comando) o $git (comando) --help
+
+6- a- git add
+   b- log; repositorio
+   c- git init
+   d- repositorio; git push
+   e- git init; clonando; git clone
+   f- repositorio; rama
+   g- conflicto; archivo
+   h- merge; archivo; git add
+   i- git push; commit; git pull
+
+7- a- .
+   b- 
+   c- log
+   d- --amend
+   e- add index.html css/
+   f- -b new-branch
+   g- config user.name
+   h- remote -v
+   i- pull
+   j- merge hotfix
+
+8- git status
+
+9- git log -3
+
+10- git add LICENSE
+
+11- git commit -am
+
+12- git remote rm github
+
+13- git branch -d hotfix
+
+14- git log --pretty=oneline --graph
+
+15- git commit --amend -m "arreglao"
+
+16- git chekout -b create-user-form
+
+17- 
+
+18- git branch -a
+
+19- git remote add work https://github.com/user/repo.git
+    git push -u work main 
+
+20- git config user.name " "
+    git config user.email " "
+
+21- git commit -a -m " "
+
+22- 
+
+23- 
+
+24- 
+
+25- 
+
+26- git commit -am " "
+    git switch master
+    (arreglamos) git add .
+    git commit -m "parhe"
+
+27- git reset HEAD .env
+    git commit -m " "
+
+28- git init
+    git branch rama1 rama2
+    git switch rama1
+    touch hola.txt
+    git commit -am " "
+    git switch rama2
+    touch adios.txt
+    git commit -am " "
+
+29- a- V
+    b- F
+    c- V
+    d- F
+    e- V
+    f- F
+    g- F
+    h- V
+    i- V
+    j- V
+    k- F
+
